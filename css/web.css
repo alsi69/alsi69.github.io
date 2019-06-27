@@ -1,0 +1,83 @@
+
+.bg-s {
+    background-color: #828282;
+}
+
+
+.menu-1{
+    display: inline-block;
+}
+.slider-1{
+    display: inline-block;
+}
+/*.secondary{
+    background-color:  #000;
+}*/
+
+.menu-21 a:hover{
+    background: #2E2E2E;
+}
+.katalog-21 a:hover {
+    background: #aaa;
+}
+.portfolio ul,
+.portfolio li{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.portfolio li{
+
+    display: inline-block;
+    position: relative;
+    border: 3px solid gray ;
+    border-radius: 3px;
+}
+.portfolio img {
+    width: 200px;
+    height: 300px;
+    display: block;
+}
+.descr {
+    position: absolute;
+
+    
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    padding-top: 220px;
+    text-align: center;
+    opacity: 0;
+    top: 30%;
+    -webkit-transition: all .5s ;
+    -o-transition: all .5s;
+    transition:  all .5s; 
+}
+.portfolio li:hover .descr {
+    opacity: 1;
+    top: 0;
+
+}
+
+.prise1 {
+    background-color: #EBB312; 
+    width: 207px;
+}
+.row1 {
+    margin-top: 35px;
+}
+.hr{
+    margin: 40px;
+}
+
+
+
+
+
+footer{
+    background-color:  #6C757D ;
+    height: 180px;
+    margin-top: 50px;
+}
